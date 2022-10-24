@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+body{
+    background-color: hsl(216, 12%, 8%);
+    display:flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    padding:15rem 0 0 45rem;
+}
+.ratingpage, .thankyou{
+    background-color: hsl(213, 19%, 18%);
+    height:380px;
+    width:375px;
+    color:hsl(217, 12%, 63%);  
+    padding: 1.5rem;
+    border-radius: 5%;
+
+}
+    .ratingpage svg{
+        background-color: hsl(213, 20%, 26%);
+        border-radius: 50%;
+        padding:1rem;
+    }
+    .ratingpage h1{
+        margin-top: 2rem;
+    color:white;
+    }
+    .ratingpage span{
+        font-size: 16px;
+        
+    }
+.btn{
+height:3rem;
+width:3rem;
+margin-right:1.5rem;
+margin-top:1rem;
+background-color: hsl(213, 20%, 26%) ;
+border-radius: 50%;
+color:hsl(217, 12%, 63%);
+border:1px solid hsl(213, 20%, 26%)
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+    transition:.1s  ease-in-out;
+}
+.btn:focus{
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+}
+.submitbutton{
+    background-color: hsl(25, 97%, 53%);
+    width:22rem;
+    height:3rem;
+    margin-top:2rem;
+    color:white;
+    border:1px solid hsl(25, 97%, 53%);
+    border-radius: 30px;
+}
+.submitbutton:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    transition:.1s  ease-in-out;
+}
+.thankyou svg{
+   margin:1rem 0 0 5.5rem;
+}
+.thankyou .rating{
+   margin:0 0 0 5rem;
+   background-color:  hsl(213, 20%, 26%);
+   border-radius: 30px;
+   padding:.5rem 1.8rem .5rem 1.8rem;
+   color:hsl(25, 97%, 53%)
+}
+.thankyou h2{
+    margin:2rem 0 1rem 7.5rem;
+    color:white;
+}
+.thankyou span{
+    margin:2rem 0 0 0;
+}
+.hidden{
+    display:none;
+}
